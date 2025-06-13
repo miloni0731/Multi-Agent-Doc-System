@@ -1,0 +1,24 @@
+# LLM and HuggingFace Inference API
+huggingface_hub>=0.17.0
+transformers>=4.39.0
+torch>=2.0.0
+
+# Streamlit frontend UI
+streamlit>=1.31.0
+
+# File parsing and data processing
+PyPDF2>=3.0.1
+pandas>=2.2.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Memory and terminal formatting
+rich>=13.7.0
+python-dotenv>=1.0.1
+
+# Optional Enhancements
+# python-magic>=0.4.27         # optional for file type detection
+# pydantic>=2.6.0              # optional for structured data validation
+
+# Testing
+pytest>=8.1.0
