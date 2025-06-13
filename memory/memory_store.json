@@ -1,0 +1,206 @@
+[
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-05-28T14:48:27.231511"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "invoice_id": "INV-2025-001",
+            "date": "2025-05-27",
+            "customer": "Acme Corporation",
+            "items": [
+                {
+                    "name": "Widget A",
+                    "qty": 10,
+                    "price": 5.0
+                },
+                {
+                    "name": "Widget B",
+                    "qty": 5,
+                    "price": 12.0
+                }
+            ],
+            "total": 110.0
+        },
+        "missing_fields": [
+            "id",
+            "amount",
+            "sender"
+        ],
+        "timestamp": "2025-05-28T14:48:27.234645"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-05-28T15:13:18.260010"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "invoice_id": "INV-2025-001",
+            "date": "2025-05-27",
+            "customer": "Acme Corporation",
+            "items": [
+                {
+                    "name": "Widget A",
+                    "qty": 10,
+                    "price": 5.0
+                },
+                {
+                    "name": "Widget B",
+                    "qty": 5,
+                    "price": 12.0
+                }
+            ],
+            "total": 110.0
+        },
+        "missing_fields": [
+            "id",
+            "amount",
+            "sender"
+        ],
+        "timestamp": "2025-05-28T15:13:18.271825"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-05-28T15:13:34.652657"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "invoice_id": "INV-2025-001",
+            "date": "2025-05-27",
+            "customer": "Acme Corporation",
+            "items": [
+                {
+                    "name": "Widget A",
+                    "qty": 10,
+                    "price": 5.0
+                },
+                {
+                    "name": "Widget B",
+                    "qty": 5,
+                    "price": 12.0
+                }
+            ],
+            "total": 110.0
+        },
+        "missing_fields": [
+            "id",
+            "amount",
+            "sender"
+        ],
+        "timestamp": "2025-05-28T15:13:34.652657"
+    },
+    {
+        "source": "HONORS SEM 8.pdf",
+        "type": "PDF",
+        "intent": "Regulation",
+        "timestamp": "2025-05-28T15:14:15.316630"
+    },
+    {
+        "source": "HONORS SEM 8.pdf",
+        "type": "PDF",
+        "intent": "Regulation",
+        "timestamp": "2025-05-28T15:14:58.850443"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-05-28T15:21:03.106669"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "invoice_id": "INV-2025-001",
+            "date": "2025-05-27",
+            "customer": "Acme Corporation",
+            "items": [
+                {
+                    "name": "Widget A",
+                    "qty": 10,
+                    "price": 5.0
+                },
+                {
+                    "name": "Widget B",
+                    "qty": 5,
+                    "price": 12.0
+                }
+            ],
+            "total": 110.0
+        },
+        "missing_fields": [
+            "id",
+            "amount",
+            "sender"
+        ],
+        "timestamp": "2025-05-28T15:21:03.155225"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "invoice_id": "INV-2025-001",
+            "date": "2025-05-27",
+            "customer": "Acme Corporation",
+            "items": [
+                {
+                    "name": "Widget A",
+                    "qty": 10,
+                    "price": 5.0
+                },
+                {
+                    "name": "Widget B",
+                    "qty": 5,
+                    "price": 12.0
+                }
+            ],
+            "total": 110.0
+        },
+        "missing_fields": [
+            "id",
+            "amount",
+            "sender"
+        ],
+        "timestamp": "2025-05-28T15:21:03.216428"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-05-28T15:25:13.221362"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "invoice_id": "INV-2025-001",
+            "date": "2025-05-27",
+            "customer": "Acme Corporation",
+            "items": [
+                {
+                    "name": "Widget A",
+                    "qty": 10,
+                    "price": 5.0
+                },
+                {
+                    "name": "Widget B",
+                    "qty": 5,
+                    "price": 12.0
+                }
+            ],
+            "total": 110.0
+        },
+        "missing_fields": [
+            "id",
+            "amount",
+            "sender"
+        ],
+        "timestamp": "2025-05-28T15:25:13.252957"
+    }
+]

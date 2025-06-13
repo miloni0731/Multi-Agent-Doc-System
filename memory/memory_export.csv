@@ -1,0 +1,12 @@
+source,type,intent,timestamp,meta
+sample_invoice.json,JSON,Invoice,2025-05-28T15:13:18.260010,{}
+sample_invoice.json,,,2025-05-28T15:13:18.271825,"{""invoice_id"": ""INV-2025-001"", ""date"": ""2025-05-27"", ""customer"": ""Acme Corporation"", ""items"": [{""name"": ""Widget A"", ""qty"": 10, ""price"": 5.0}, {""name"": ""Widget B"", ""qty"": 5, ""price"": 12.0}], ""total"": 110.0}"
+sample_invoice.json,JSON,Invoice,2025-05-28T15:13:34.652657,{}
+sample_invoice.json,,,2025-05-28T15:13:34.652657,"{""invoice_id"": ""INV-2025-001"", ""date"": ""2025-05-27"", ""customer"": ""Acme Corporation"", ""items"": [{""name"": ""Widget A"", ""qty"": 10, ""price"": 5.0}, {""name"": ""Widget B"", ""qty"": 5, ""price"": 12.0}], ""total"": 110.0}"
+HONORS SEM 8.pdf,PDF,Regulation,2025-05-28T15:14:15.316630,{}
+HONORS SEM 8.pdf,PDF,Regulation,2025-05-28T15:14:58.850443,{}
+sample_invoice.json,JSON,Invoice,2025-05-28T15:21:03.106669,{}
+sample_invoice.json,,,2025-05-28T15:21:03.155225,"{""invoice_id"": ""INV-2025-001"", ""date"": ""2025-05-27"", ""customer"": ""Acme Corporation"", ""items"": [{""name"": ""Widget A"", ""qty"": 10, ""price"": 5.0}, {""name"": ""Widget B"", ""qty"": 5, ""price"": 12.0}], ""total"": 110.0}"
+sample_invoice.json,,,2025-05-28T15:21:03.216428,"{""invoice_id"": ""INV-2025-001"", ""date"": ""2025-05-27"", ""customer"": ""Acme Corporation"", ""items"": [{""name"": ""Widget A"", ""qty"": 10, ""price"": 5.0}, {""name"": ""Widget B"", ""qty"": 5, ""price"": 12.0}], ""total"": 110.0}"
+sample_invoice.json,JSON,Invoice,2025-05-28T15:25:13.221362,{}
+sample_invoice.json,,,2025-05-28T15:25:13.252957,"{""invoice_id"": ""INV-2025-001"", ""date"": ""2025-05-27"", ""customer"": ""Acme Corporation"", ""items"": [{""name"": ""Widget A"", ""qty"": 10, ""price"": 5.0}, {""name"": ""Widget B"", ""qty"": 5, ""price"": 12.0}], ""total"": 110.0}"

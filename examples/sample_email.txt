@@ -1,0 +1,16 @@
+From: procurement@abccompany.com  
+To: sales@xyzsuppliers.com  
+Subject: Request for Quotation - Urgent  
+
+Dear Team,  
+
+We are interested in procuring the following items:  
+- 20x Industrial Fans  
+- 50x LED Lights  
+
+Please send us your quotation by tomorrow morning.  
+
+Regards,  
+John Doe  
+Procurement Manager  
+ABC Company  

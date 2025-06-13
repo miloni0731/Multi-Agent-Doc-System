@@ -1,0 +1,25 @@
+{
+    "standardized": {
+        "id": "INV-2025-001",
+        "date": "2025-05-27",
+        "sender": "Acme Corporation",
+        "items": [
+            {
+                "name": "Widget A",
+                "quantity": 10,
+                "price_per_unit": 5.0,
+                "total_amount": 50.0
+            },
+            {
+                "name": "Widget B",
+                "quantity": 5,
+                "price_per_unit": 12.0,
+                "total_amount": 60.0
+            }
+        ],
+        "total_amount": 110.0
+    },
+    "missing_fields": [
+        "amount"
+    ]
+}

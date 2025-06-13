@@ -1,0 +1,543 @@
+[
+    {
+        "source": "sample_invoice.json",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:28:48.097437"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:37:27.293237"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:44:39.758380"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:44:47.648334"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:45:02.530415"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:45:24.551839"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:53:04.747346"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T18:53:11.224834"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T19:25:06.799702"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-02T20:28:15.477089"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-03T09:07:28.198846"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-06-03T10:27:16.605581+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "standardized": {
+                "id": "INV-2025-001",
+                "date": "2025-05-27",
+                "sender": "Acme Corporation",
+                "line_items": [
+                    {
+                        "name": "Widget A",
+                        "quantity": 10,
+                        "price": 5.0
+                    },
+                    {
+                        "name": "Widget B",
+                        "quantity": 5,
+                        "price": 12.0
+                    }
+                ],
+                "amount": 110.0
+            },
+            "missing_fields": [
+                "total"
+            ]
+        },
+        "timestamp": "2025-06-03T10:27:17.917549+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-03T10:27:37.542086+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-03T10:27:38.490895+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Email",
+        "intent": "RFQ",
+        "timestamp": "2025-06-03T10:27:44.928645+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "email_meta": {
+            "sender": "procurement@abccompany.com",
+            "urgency": "High",
+            "intent": "RFQ"
+        },
+        "timestamp": "2025-06-03T10:27:45.638027+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-03T10:31:59.395942+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-03T10:31:59.926781+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-03T10:32:06.264514+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-03T10:32:06.783045+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Email",
+        "intent": "RFQ",
+        "timestamp": "2025-06-03T10:32:14.545491+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "email_meta": {
+            "sender": "procurement@abccompany.com",
+            "urgency": "High",
+            "intent": "RFQ"
+        },
+        "timestamp": "2025-06-03T10:32:15.159163+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-06-03T10:32:24.526874+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "standardized": {
+                "id": "INV-2025-001",
+                "date": "2025-05-27",
+                "sender": "Acme Corporation",
+                "items": [
+                    {
+                        "name": "Widget A",
+                        "quantity": 10,
+                        "price_per_unit": 5.0
+                    },
+                    {
+                        "name": "Widget B",
+                        "quantity": 5,
+                        "price_per_unit": 12.0
+                    }
+                ],
+                "subtotal": 100.0,
+                "tax": 10.0,
+                "total": 110.0
+            },
+            "missing_fields": [
+                "amount",
+                "tax",
+                "subtotal"
+            ]
+        },
+        "timestamp": "2025-06-03T10:32:26.169773+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "HONORS SEM 8.pdf",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-03T10:33:16.946243+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-03T10:54:04.434075+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-03T10:54:05.504095+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-03T10:54:27.311512+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-03T10:54:27.877285+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-03T10:54:33.982385+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-03T10:54:34.905681+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Email",
+        "intent": "RFQ",
+        "timestamp": "2025-06-03T10:54:41.630399+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "email_meta": {
+            "sender": "procurement@abccompany.com",
+            "urgency": "High",
+            "intent": "RFQ"
+        },
+        "timestamp": "2025-06-03T10:54:43.029219+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-06-03T10:54:51.001029+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "standardized": {
+                "id": "INV-2025-001",
+                "date": "2025-05-27",
+                "sender": "Acme Corporation",
+                "line_items": [
+                    {
+                        "name": "Widget A",
+                        "quantity": 10,
+                        "unit_price": 5.0
+                    },
+                    {
+                        "name": "Widget B",
+                        "quantity": 5,
+                        "unit_price": 12.0
+                    }
+                ],
+                "total_amount": 110.0
+            },
+            "missing_fields": [
+                "amount"
+            ]
+        },
+        "timestamp": "2025-06-03T10:54:52.245253+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-07T12:51:39.705582+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Unknown",
+        "intent": "Unknown",
+        "timestamp": "2025-06-07T12:52:05.889801+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-07T12:56:52.807903+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-07T12:56:53.884014+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Email",
+        "intent": "RFQ",
+        "timestamp": "2025-06-07T12:57:03.521686+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "email_meta": {
+            "sender": "procurement@abccompany.com",
+            "urgency": "High",
+            "intent": "RFQ"
+        },
+        "timestamp": "2025-06-07T12:57:04.831824+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-06-07T12:57:14.452086+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "standardized": {
+                "id": "INV-2025-001",
+                "date": "2025-05-27",
+                "sender": "Acme Corporation",
+                "items": [
+                    {
+                        "name": "Widget A",
+                        "quantity": 10,
+                        "price_per_item": 5.0
+                    },
+                    {
+                        "name": "Widget B",
+                        "quantity": 5,
+                        "price_per_item": 12.0
+                    }
+                ],
+                "total_amount": 110.0
+            },
+            "missing_fields": [
+                "amount"
+            ]
+        },
+        "timestamp": "2025-06-07T12:57:15.989774+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-06-07T12:57:22.639409+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "standardized": {
+                "id": "INV-2025-001",
+                "date": "2025-05-27",
+                "sender": "Acme Corporation",
+                "items": [
+                    {
+                        "name": "Widget A",
+                        "quantity": 10,
+                        "price_per_unit": 5.0
+                    },
+                    {
+                        "name": "Widget B",
+                        "quantity": 5,
+                        "price_per_unit": 12.0
+                    }
+                ],
+                "total_amount": 110.0
+            },
+            "missing_fields": [
+                "amount"
+            ]
+        },
+        "timestamp": "2025-06-07T12:57:24.383638+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-08T12:20:37.253524+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-08T12:20:38.317873+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "type": "Email",
+        "intent": "Complaint",
+        "timestamp": "2025-06-08T12:21:01.971918+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_complaint.pdf",
+        "email_meta": {
+            "sender": "support@customer.com",
+            "urgency": "High",
+            "intent": "Complaint"
+        },
+        "timestamp": "2025-06-08T12:21:03.206600+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "type": "Email",
+        "intent": "RFQ",
+        "timestamp": "2025-06-08T12:21:29.822697+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_email.txt",
+        "email_meta": {
+            "sender": "procurement@abccompany.com",
+            "urgency": "High",
+            "intent": "RFQ"
+        },
+        "timestamp": "2025-06-08T12:21:30.995095+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "type": "JSON",
+        "intent": "Invoice",
+        "timestamp": "2025-06-08T12:21:52.659382+00:00",
+        "agent": "unknown"
+    },
+    {
+        "source": "sample_invoice.json",
+        "json_data": {
+            "standardized": {
+                "id": "INV-2025-001",
+                "date": "2025-05-27",
+                "sender": "Acme Corporation",
+                "items": [
+                    {
+                        "name": "Widget A",
+                        "quantity": 10,
+                        "price_per_unit": 5.0,
+                        "total_amount": 50.0
+                    },
+                    {
+                        "name": "Widget B",
+                        "quantity": 5,
+                        "price_per_unit": 12.0,
+                        "total_amount": 60.0
+                    }
+                ],
+                "total_amount": 110.0
+            },
+            "missing_fields": [
+                "amount"
+            ]
+        },
+        "timestamp": "2025-06-08T12:21:54.111352+00:00",
+        "agent": "unknown"
+    }
+]
